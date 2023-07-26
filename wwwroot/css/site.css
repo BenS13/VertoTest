@@ -17,6 +17,10 @@
     outline: 2px dashed blue;
   }
 
+div {
+  outline: 2px dashed blue;
+}
+
 header {
     background-color: rgba(230,231,232,255);
 }
