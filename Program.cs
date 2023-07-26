@@ -7,6 +7,9 @@ var app = builder.Build();
 
 //app.MapGet("/", () => "Hello World!");
 
+//Allow css files to be applied
+app.UseStaticFiles();
+
 //Routes automatically get routed
 app.UseRouting();
 

@@ -2,21 +2,29 @@
 <html lang="en">
     <head>
         <title>@ViewData["Title"] - VertoTest</title>
-        <link rel="stylesheet" href="~/css/site.css"/>
+        <link rel="stylesheet" href="~/css/site.css" asp-append-version="true"/>
     </head>
     <body>
-        <header>
-            <p>This is the header</p>
+        <!-- Define a header to be used on all pages -->
+        <header class="">
+            <div>
+                <div>
+                    Header
+                </div>
+            </div>
+            
         </header>
         
-        <div class="">
+        <!--Render the main content from the views ect. -->
+        <div> 
             <main role="main" class="">
                 @RenderBody()
             </main>
         </div>
 
-        <footer class="">
-            <p>This is the footer</p>
+        <!-- Define a footer to be used on all pages -->
+        <footer class="outline">
+            <div class="outline">This is the footer</div>
         </footer>
     </body>
 </html>
