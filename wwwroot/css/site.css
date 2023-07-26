@@ -18,5 +18,13 @@
   }
 
 header {
-    background-color: rgba(230,231,232,255)
+    background-color: rgba(230,231,232,255);
+}
+
+input {
+  display: inline-block;
+}
+
+.header-image {
+  padding-top: 1%;
 }
